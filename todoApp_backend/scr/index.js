@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 
 // MongoDB connection
-mongoose.connect("mongodb+srv://admin:01rsnz72db4a065p@cluster0.7mibf.mongodb.net/Todo-app-database");
+mongoose.connect("");
 
 // Signup Route
 app.post("/signup", async function (req, res) {
